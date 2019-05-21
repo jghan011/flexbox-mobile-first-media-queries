@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo > img {
+    width: 50px;
+  }
+  
+  .card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    max-width: 600px;
+    
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .menu {
+    display: none;
+  }
+  
+  .hamburger {
+    color: white;
+  
+  }
+  
+  .navbar {
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: rgb(97, 97, 86);
+    display:flex;
+  
+  }
+  
+  .zero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  @media screen and (min-width: 768px) {
+    header {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-right: 95px;
+    }
+  
+  .card-footer {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    margin-top: 52px;
+  
+  
+  }
+  
+  ul.social {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none; 
+    width: 100%;
+  }
+  
+  li.social_icon {
+  
+    display: flex;
+  }
+  
+  }
+    
+  @media screen and (min-width: 1024px){
+  
+  .logo > img {
+    width: 50px;
+    margin-left: 280px;
+  }
+  
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 355px;
+  }
+  
+  .li_{
+    display: inline;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .hamburger{
+    display: none;
+  
+  }
+  
+  .menu {
+      
+    display: inline-table;
+    color: white;
+    text-align: center;
+    float: right;  
+  
+    
+    list-style-type: none;
+    margin-right: 60px;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  
+  .card-body{
+    
+    align-items: center;
+    max-width:300px;
+    flex-direction: column;
+    height: 270px;
+  }
+    
+  
+  
+  .zero{
+  
+  display: inline-table;
+  
+  margin-left: 160px;
+  }
+  
+  .one {
+   
+    display: inline-table;
+  
+    margin-left: 40px;
+  }
+   
+  .two {
+    display: inline-table;
+  
+    margin-left: 30px;
+  }
+  
+  
+  }
